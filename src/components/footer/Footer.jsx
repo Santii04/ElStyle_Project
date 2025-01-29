@@ -1,3 +1,5 @@
+import logo from '../../assets/images/logo2.png'
+
 const Footer = () => {
     const footerLinks = {
       shop: [
@@ -20,7 +22,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-start">
             <div className="mb-8 md:mb-0">
               <img
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-PBsjhLyHRDqHqzUwla7SytamOIAyqI.png"
+                src={logo}
                 alt="ELStyle Logo"
                 width={120}
                 height={120}
