@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+  base: "https://santii04.github.io/ElStyle_Project",
 })
