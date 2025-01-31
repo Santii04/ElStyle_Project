@@ -2,7 +2,7 @@ import logo from '../../assets/images/logo2.png'
 
 const Hero = () => {
   return (
-    <section className="py-32 relative overflow-hidden">
+    <section id="hero" className="py-32 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black z-10"></div>
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center relative z-20">
         <div className="w-full md:w-1/2 pr-0 md:pr-8 mb-8 md:mb-0">

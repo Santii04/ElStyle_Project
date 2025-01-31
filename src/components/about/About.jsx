@@ -21,7 +21,7 @@ const About = () => {
     ]
   
     return (
-      <section className="py-24 bg-black">
+      <section id="about" className="py-24 bg-black">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 mb-12 md:mb-0">
             <img

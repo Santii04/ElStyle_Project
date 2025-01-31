@@ -16,7 +16,7 @@ const FeaturedProducts = () => {
     console.log(products)
   
     return (
-      <section className="py-24 bg-white text-black">
+      <section id="products" className="py-24 bg-white text-black">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-light mb-16 text-center">
             Nuestra última colección
